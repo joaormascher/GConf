@@ -7,7 +7,7 @@ namespace Conference
 {
     public class Schedule
     {
-        [KEY]
+        [Key]
         public int Id_Shedule { get; set; }
         public DateTime DataHour { get; set; }
         public string Host { get; set; }
