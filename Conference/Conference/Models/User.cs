@@ -2,16 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using System.ComponentModel;
 
-namespace Conference
+namespace Conference.Models
 {
     public class User
     {
         [Key]
         public string Username { get; set; }
-        public string Password { get; set; }
         public string Email { get; set; }
-        public int Kind { get; set; } 
+        public string Password { get; set; }
+        public int Kind { get; set; }
+
     }
 }
