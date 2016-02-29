@@ -113,7 +113,6 @@
   <ItemGroup>
     <Compile Include="Models\Presenter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
